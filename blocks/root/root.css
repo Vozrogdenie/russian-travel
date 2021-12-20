@@ -1,0 +1,15 @@
+.root{
+    
+
+background-color: #2A2C2F;
+position: relative;
+color: #fff;
+font-weight: 400;
+min-width: 320px;
+max-width: 1280px;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+padding: 28px 48px 24px;
+
+}
