@@ -1,8 +1,7 @@
 .header__lang-link {
-position: absolute;
 width: 30px;
 height: 28px;
-left: 1155px;
+right: 95px;
 top: 46px;
 font-family: Inter;
 font-style: normal;
@@ -13,3 +12,18 @@ text-align: right;
 color: #FFFFFF;
 text-decoration-line: underline
 }
+
+
+/* 
+@media screen and (max-width: 984px) {
+    .header__lang-linkk  {
+        right: 71px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header__lang-linkk  {
+        right: 56px;
+        top: 30px;
+    }
+} */
