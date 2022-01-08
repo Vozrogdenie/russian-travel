@@ -35,6 +35,7 @@
     .cover__item {
         min-height: 640px;
 }
+}
 
 @media screen and (max-width: 984px) {
     .cover__item {
