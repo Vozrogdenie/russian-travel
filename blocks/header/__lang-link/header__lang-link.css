@@ -14,16 +14,3 @@ text-decoration-line: underline
 }
 
 
-/* 
-@media screen and (max-width: 984px) {
-    .header__lang-linkk  {
-        right: 71px;
-    }
-}
-
-@media screen and (max-width: 568px) {
-    .header__lang-linkk  {
-        right: 56px;
-        top: 30px;
-    }
-} */

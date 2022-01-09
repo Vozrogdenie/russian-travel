@@ -1,3 +1,41 @@
 .lead__title {
-    margin: 56px;
+    margin: 56px 0 32px 0;
+   text-align: center;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    font-style: normal;
+    width: 720px;
+    height: 200px;
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+@media screen and (max-width: 1140px) {
+    .lead__title {
+        margin: 48px 0 32px;
+        margin-right: 152px;
+        margin-left: 152px;
+}
+}
+
+@media screen and (max-width: 984px) {
+    .lead__title {
+        margin: 48px 0 32px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .lead__title  {
+        margin: 26px 0 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+        height: 88px;
+     
+    }
 }
