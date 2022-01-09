@@ -5,7 +5,7 @@
     font-size: 96px;
     line-height: 100px;
     font-style: normal;
-    width: 720px;
+    max-width: 720px;
     height: 200px;
     margin-left: 280px;
     margin-right: 280px;
@@ -34,7 +34,7 @@
         margin-right: 16px;
         font-size: 40px;
         line-height: 44px;
-        width: 288px;
+        max-width: 288px;
         height: 88px;
      
     }
