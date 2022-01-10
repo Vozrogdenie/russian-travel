@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 721px) {
     .lead__title  {
         margin: 26px 0 16px;
         margin-left: 16px;

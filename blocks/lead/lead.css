@@ -2,5 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 100%;
+    max-width: 100%;
+    margin: auto;
 }
+
+@media screen and (max-width: 1140px) {
+    .lead {
+      max-width: calc(100% - 96px);
+     }
+    }
+    
+    @media screen and (max-width: 984px) {
+    .lead {
+      max-width: 100%;
+      }
+    }
+    
+    @media screen and (max-width: 721px) {
+    .lead {
+      min-width: 320px;
+      }
+    }
