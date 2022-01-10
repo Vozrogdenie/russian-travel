@@ -7,3 +7,22 @@
     flex-direction: column;
  
 }
+
+@media screen and (max-width: 1140px) {
+    .intro {
+        margin-left: 48px;
+}
+}
+
+@media screen and (max-width: 984px) {
+    .intro{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .intro {
+        margin-left: 16px;
+
+    }
+}
