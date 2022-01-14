@@ -1,13 +1,19 @@
 .root {
-font-family: 'Inter', Arial, sans-serif;
-background-color: #2A2C2F;
-color: #fff;
-font-weight: 400;
-min-width: 320px;
-max-width: 1280px;
-display: flex;
-flex-direction: column;
-margin: 0 auto;
+    background-color: #2A2C2F;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 0 24px;
+    text-rendering: optimizeLegibility;
+    min-width: 320px;
+    max-width: 1280px;
+}
 
-/* padding: 28px 48px 24px; */
+@media (max-width: 755px) {
+    .root {
+        padding-top: 16px;
+    }
 }

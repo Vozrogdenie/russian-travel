@@ -1,15 +1,23 @@
 .content {
     display: grid;
     grid-row-gap: 92px;
+    grid-template-areas: "lead"
+        "intro"
+        "photo-grid"
+        "places"
+        "cover"
+        "footer";
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 984px) {
+@media all and (max-width: 1010px) {
     .content {
         grid-row-gap: 88px;
     }
 }
 
-@media screen and (max-width: 568px) {
+@media all and (max-width: 755px) {
+
     .content {
         grid-row-gap: 64px;
     }

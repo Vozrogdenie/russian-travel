@@ -1,0 +1,13 @@
+.places__image {
+    grid-area: image;
+    width: 100%;
+}
+
+@media (max-width:  755px) {
+    .places__image {
+        margin-bottom: 32px;
+    }
+    .places__image:last-of-type {
+        margin-bottom: 28px;
+    }
+}

@@ -1,0 +1,13 @@
+.footer__linki {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media all and (max-width:755px) {
+    .footer__linki {
+        flex-direction: column;
+    }
+}

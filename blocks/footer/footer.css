@@ -1,0 +1,30 @@
+.footer {
+    grid-area: footer;
+    margin-left: 48px;
+    margin-right: 48px;
+    font-size: 18px;
+    line-height: 1.12;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+@media screen and (max-width: 999px) {
+    .footer {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media all and (max-width: 660px) {
+    .footer {
+        min-width: 186px;
+        font-size: 24px;
+        line-height: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 16px 0 16px;
+    }
+}

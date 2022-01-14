@@ -1,25 +1,24 @@
 .lead {
+    grid-area: lead;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    box-sizing: border-box;
     max-width: 100%;
-    margin: auto;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width:1100px) {
     .lead {
-      max-width: calc(100% - 96px);
-     }
+        max-width: 928px;
     }
-    
-    @media screen and (max-width: 984px) {
+}
+
+@media screen and (max-width: 755px) {
     .lead {
-      max-width: 100%;
-      }
+        object-fit: contain;
+        padding-left: 0;
+        padding-right: 0;
     }
-    
-    @media screen and (max-width: 721px) {
-    .lead {
-      min-width: 320px;
-      }
-    }
+}
