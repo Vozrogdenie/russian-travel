@@ -1,6 +1,7 @@
 .content {
-    display: grid;
-    grid-row-gap: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
     grid-template-areas: "lead"
         "intro"
         "photo-grid"
@@ -12,13 +13,13 @@
 
 @media all and (max-width: 1010px) {
     .content {
-        grid-row-gap: 88px;
+        gap: 88px;
     }
 }
 
 @media all and (max-width: 755px) {
 
     .content {
-        grid-row-gap: 64px;
+        gap: 64px;
     }
 }

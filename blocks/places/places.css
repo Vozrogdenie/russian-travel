@@ -4,18 +4,18 @@
     display: grid;
     grid-column: auto;
     grid-auto-flow: dense;
-    grid-row-gap: 80px;
+    row-gap: 80px;
 }
 
 @media screen and (max-width:1010px) {
     .places {
-        grid-row-gap: 72px;
+        row-gap: 72px;
     }
 }
 
 @media screen and (max-width: 755px) {
     .places {
-        grid-row-gap: 50px;
+        row-gap: 50px;
         padding-left: 0;
         padding-right: 0;
     }
