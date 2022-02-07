@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px) {
+@media all and (max-width: 1279px) {
     .photo-grid {
         gap: 14px;
         grid-template-columns: repeat(3, minmax(290px, 1fr));
