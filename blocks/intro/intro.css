@@ -2,7 +2,7 @@
     grid-area: intro;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 100px;
     align-self: flex-start;
     max-width: 100%;
 }
@@ -10,5 +10,6 @@
 @media screen and (max-width: 999px) {
     .intro {
         max-width: 720px;
+        margin: 0 48px;
     }
 }

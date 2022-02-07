@@ -1,4 +1,4 @@
-.places__website {
+.place__website {
     grid-area: website;
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
 }
 
 @media (max-width:755px) {
-    .places__website {
+    .place__website {
         margin-bottom: 32px;
         margin-top: 32px;
         margin-left: 16px;

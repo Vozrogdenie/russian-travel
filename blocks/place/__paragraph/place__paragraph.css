@@ -1,4 +1,4 @@
-.places__paragraph {
+.place__paragraph {
     margin: 0;
     grid-area: paragraph;
     font-size: 18px;
@@ -6,17 +6,17 @@
     padding: 0;
 }
 
-.places__paragraph:nth-of-type(even) {
+.place__paragraph:nth-of-type(even) {
     margin-top: 26px;
 }
 
 @media screen and (max-width:755px) {
-    .places__paragraph {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }
 
-    .places__paragraph:nth-of-type(even) {
+    .place__paragraph:nth-of-type(even) {
         margin-top: 25px;
     }
 }

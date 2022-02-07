@@ -33,7 +33,7 @@
 
 
 @media (max-width: 1280px) {
-    z .cover__overlay {
+    .cover__overlay {
         min-height: 740px;
     }
 }
