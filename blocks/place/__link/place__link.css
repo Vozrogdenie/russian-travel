@@ -5,3 +5,7 @@
     width: fit-content;
     margin-top: 12px;
 }
+
+.place__link:hover {
+    opacity: 80%;
+}

@@ -11,12 +11,12 @@
 
 @media screen and (max-width:1024px) {
     .lead {
-        max-width: 928px;
+        max-width: 100%;
         padding: 0 48px;
     }
 }
 
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
     .lead {
         object-fit: contain;
         padding-left: 0;
